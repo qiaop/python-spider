@@ -79,8 +79,10 @@ class Spider:
 
                     authorInstance.gender = gender
                     authorInstance.age = age
-                except AttributeError and TypeError:
+                except AttributeError:
                     print 'No div AttributeError'
+                except TypeError:
+                    print 'TypeError'
 
                 stats = item.find('div',{'class':'stats'})
 
