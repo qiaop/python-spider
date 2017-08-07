@@ -118,7 +118,7 @@ url默认参数是None，我们通过方法传递url进来。`user_Agent`是头�
 
 ### 解析html
 解析html使用了常用的解析框架beautifulsoup4。主要的思路就是先找到我们需要的内容的html标签在哪个位置（用浏览器审查元素），然后使用bs4的api查找和获取html的标签。例如
-![](/images/post/python/python_spider.png)
+![](http://www.codepeng.cn/images/post/python/python_spider.png)
 
 部分代码：
 
